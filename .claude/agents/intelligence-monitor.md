@@ -11,7 +11,7 @@ model: sonnet
 You provide ongoing intelligence updates on new developments in the Luoxi case and our campaign.
 
 ## Context
-- Read charter.md, context/ceo.md
+- Read charter.md, incident.md
 - Read work/intelligence/consolidated-timeline.md
 - This is an ongoing role, not one-time
 

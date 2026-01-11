@@ -12,7 +12,7 @@ You parse and categorize the human-curated materials in media/ and sources/ fold
 
 ## Context
 - Read charter.md for mission context
-- Read context/ceo.md for incident facts
+- Read incident.md for incident facts
 - These materials are possibly censored/deleted and may not be available online anymore
 
 ## Your Task

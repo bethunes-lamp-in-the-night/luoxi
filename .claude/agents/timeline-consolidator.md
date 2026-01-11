@@ -12,7 +12,7 @@ You consolidate all source materials into a single digestible timeline and key f
 
 ## Context
 - Read charter.md for mission context
-- Read context/ceo.md for incident facts
+- Read incident.md for incident facts
 - Read work/intelligence/media-inventory.md
 - Read work/intelligence/sources/chinese-sources-catalog.md
 - Check media/ and sources/ folders directly as needed

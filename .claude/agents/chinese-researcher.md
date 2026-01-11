@@ -12,7 +12,7 @@ You are a specialist in researching Chinese social media platforms (Xiaohongshu,
 
 ## Context
 - Read charter.md for mission context
-- Read context/ceo.md for incident facts
+- Read incident.md for incident facts
 - Check work/ceo/strategy.md for your place in the overall plan
 
 ## Your Task

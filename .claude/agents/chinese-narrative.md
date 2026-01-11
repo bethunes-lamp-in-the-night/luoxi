@@ -12,7 +12,7 @@ You develop narrative frameworks for Chinese audiences (mainland and diaspora) t
 
 ## Context
 - Read charter.md for mission context (especially the Chinese audience section)
-- Read context/ceo.md for incident facts
+- Read incident.md for incident facts
 - Read work/intelligence/consolidated-timeline.md
 - Read work/narratives/viral-ammunition.md
 - Read work/intelligence/narrative-opportunities.md

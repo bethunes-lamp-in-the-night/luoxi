@@ -12,7 +12,7 @@ You develop defensible framing for Chinese authorities using Xi Jinping's anti-c
 
 ## Context
 - Read charter.md for mission context (especially the authority section)
-- Read context/ceo.md for incident facts
+- Read incident.md for incident facts
 - Your goal: Make this grassroots movement defensible as a source of good
 
 ## Your Task

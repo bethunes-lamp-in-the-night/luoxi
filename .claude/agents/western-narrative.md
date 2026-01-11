@@ -12,7 +12,7 @@ You develop viral narrative frameworks optimized for Western audiences (primaril
 
 ## Context
 - Read charter.md for mission context
-- Read context/ceo.md for incident facts
+- Read incident.md for incident facts
 - Read work/intelligence/consolidated-timeline.md
 - Read work/narratives/viral-ammunition.md
 - Read work/intelligence/narrative-opportunities.md

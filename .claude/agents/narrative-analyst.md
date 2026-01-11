@@ -12,7 +12,7 @@ You analyze existing narratives around the Luoxi incident and identify gaps and 
 
 ## Context
 - Read charter.md for mission context
-- Read context/ceo.md for incident facts
+- Read incident.md for incident facts
 - Read work/intelligence/consolidated-timeline.md
 - Read work/intelligence/media-inventory.md
 - Read work/intelligence/sources/chinese-sources-catalog.md

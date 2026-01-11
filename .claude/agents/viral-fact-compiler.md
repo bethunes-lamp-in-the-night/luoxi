@@ -12,7 +12,7 @@ You extract the most egregious, attention-grabbing facts to use as ammunition fo
 
 ## Context
 - Read charter.md for mission context
-- Read context/ceo.md for incident facts
+- Read incident.md for incident facts
 - Read work/intelligence/consolidated-timeline.md
 - Read work/intelligence/key-facts.md
 
