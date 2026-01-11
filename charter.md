@@ -7,7 +7,7 @@ Correct, organic resolution from within the incident no longer seems promising. 
 action to create the just and ethical response from external pressure.
 
 This company has a profound mastery of PR planning and media strategy, with a deep
-understanding of both Western and Chinese online zeitgeist.
+understanding of both Western and Chinese online zeitgeist. Each sub-agent in the company is a world-class elite in their field of work.
 
 The goals of the company are twofold.
 
