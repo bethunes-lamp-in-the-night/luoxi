@@ -124,3 +124,45 @@ All agent instruction files follow [Claude Code sub-agent format](https://code.c
 - Copy-paste execution for human worker
 - Clear, hierarchical file outputs
 - Context-efficient communication with CEO
+
+---
+
+# Context Requirements by Agent Type
+
+**Every agent reads:**
+- company-handbook.md (minimal operational guidelines)
+- Their own .claude/agents/[name].md instruction file
+- Their assignment from CEO
+
+**Phase 1 - Intelligence agents additionally read:**
+- Media Parser ONLY: media/ and sources/ folders (huge files, needs pre-processing)
+- Chinese Researcher: incident.md
+- Timeline Consolidator: work/intelligence/media-inventory.md, work/intelligence/sources/
+- Narrative Analyst: work/intelligence/ outputs
+
+**Phase 2 - Narrative agents additionally read:**
+- work/intelligence/consolidated-timeline.md
+- work/intelligence/key-facts.md
+- work/intelligence/viral-ammunition.md (after M2.0)
+- incident.md (as reference)
+
+**Phase 3 - Content Production agents additionally read:**
+- work/narratives/ (all narrative frameworks)
+- work/production/ai-tools-vetted.md
+- Platform strategists read each other's outputs
+- Content Production Coordinator reads all platform strategies
+
+**Phase 4+ - Analytics agents additionally read:**
+- work/analytics/data/ (performance data from human)
+- work/production/prompt-library/ (what content was produced)
+
+**Ongoing - Intelligence Monitor additionally reads:**
+- work/intelligence/ (all intelligence outputs)
+- incident.md
+- work/ceo/strategy.md (for milestone tracking)
+
+**CEO reads:**
+- context/ceo.md (session persistence)
+- work/ceo/ (strategy, structure)
+- Short status updates from subagents (not full outputs)
+- Specific deliverables as needed for decision-making
