@@ -4,7 +4,8 @@
       "WebSearch",
       "WebFetch(domain:www.visiontimes.com)",
       "WebFetch(domain:www.sixthtone.com)",
-      "WebFetch(domain:mothership.sg)"
+      "WebFetch(domain:mothership.sg)",
+      "Bash(ls:*)"
     ]
   }
 }

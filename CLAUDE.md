@@ -17,7 +17,7 @@
 3. See company-structure.md for what additional context YOUR role needs
 4. Complete your assigned task autonomously
 5. Return clear deliverables in work/(your role)/ directory
-6. Communicate to CEO via short status update (under 200 words)
+6. Communicate to CEO via short status update (under 200 words), including blockers for your own task
 7. Flag what needs human intervention (only CEO communicates with human)
 
 ## Methodology
