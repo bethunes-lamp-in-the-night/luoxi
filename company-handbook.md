@@ -40,14 +40,86 @@
 
 ---
 
+## Agent Output Standards
+
+### Required Files
+
+Every agent MUST produce exactly ONE standardized report:
+
+**Filename:** `AGENT-REPORT-[agent-name].md`
+**Location:** `work/[phase-dir]/AGENT-REPORT-[agent-name].md`
+**Template:** Copy from `.claude/templates/AGENT-REPORT-template.md`
+
+**Required sections:**
+- Executive Summary (max 200 words)
+- Deliverables (list of files produced)
+- Key Findings / Recommendations
+- Blockers / Issues (if any)
+- Next Steps
+
+### Prohibited Files
+
+❌ **DO NOT create:**
+- Multiple summary/briefing files (URGENT-CEO-BRIEFING.md + START-HERE.md + README.md)
+- Version-labeled files (FINAL-[name].md, REVISED-[name].md) - use Git for versions
+- Redundant methodology explanations across multiple files
+- Navigation files pointing to other files
+
+### File Taxonomy
+
+```
+work/
+├── [phase-dir]/
+│   ├── AGENT-REPORT-[name].md     ← YOUR standardized report to CEO
+│   ├── [deliverable].md            ← Core deliverables (referenced in report)
+│   ├── for-humans/                 ← Human execution instructions only
+│   │   └── [task]-instructions.md
+│   └── research/                   ← Supporting research (optional)
+│       └── [topic]-analysis.md
+```
+
+**Directory rules:**
+- `for-humans/` - Instructions meant for human workers, not CEO or agents
+- `research/` - Supporting analysis that doesn't need to be in main deliverables
+- Root of phase dir - Core deliverables and agent report only
+
+---
+
+## File Naming Standards
+
+**Agent reports:** `AGENT-REPORT-[agent-name].md`
+- Example: `AGENT-REPORT-video-analyst.md`
+
+**Core deliverables:** `[descriptive-name].md` (lowercase, hyphens)
+- Example: `consolidated-timeline.md`, `media-inventory.md`, `video-analysis-master.md`
+
+**Scripts:** `[action-description].sh` or `[action-description].py`
+- Example: `setup-gemini.sh`, `analyze-videos-gemini.py`
+
+**Human instructions:** `for-humans/[task]-instructions.md`
+- Example: `for-humans/archiving-instructions.md`
+
+---
+
 ## Communication Protocol
 
 **Subagent → CEO:**
-- Short status update (under 200 words)
-- Full details in your deliverable files
+- Produce ONE standardized AGENT-REPORT-[name].md
+- CEO reads your report, not all your deliverables
 - Flag blockers requiring human intervention
-- Only CEO communicates with humans
+- Keep CEO context minimal
 
-**File outputs:**
-- Work is savable and resumable through files
-- CEO context is precious - minimize what CEO reads
+**Inter-Agent Communication:**
+- Agents read Phase Consolidator briefs (e.g., media-index-brief.md from M2.0)
+- Agents DO NOT read all raw outputs from previous phase
+- Phase Consolidators synthesize 300KB → 15-20KB for downstream agents
+
+**Version Control:**
+- Overwrite files when revising (Git tracks history)
+- No FINAL/REVISED/V2 filename prefixes
+- If major pivot, document in agent report changelog
+
+**Single Source of Truth:**
+- One agent report per agent
+- No duplicate summaries or briefings
+- Clear ownership of each deliverable
