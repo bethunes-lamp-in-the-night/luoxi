@@ -26,9 +26,13 @@
 ```bash
 cd $HOME/development/luoxi
 
-# 1. Run setup script
+# 1. Run setup script (installs uv, creates venv, installs dependencies)
 chmod +x work/intelligence/video-analysis/setup-gemini.sh
 ./work/intelligence/video-analysis/setup-gemini.sh
+
+# If uv wasn't installed, the script will install it and ask you to restart your shell
+# If that happens, run: source $HOME/.cargo/env
+# Then re-run the setup script
 
 # 2. Get Google API key
 # Go to: https://aistudio.google.com/apikey
@@ -38,8 +42,12 @@ chmod +x work/intelligence/video-analysis/setup-gemini.sh
 # 3. Set API key
 export GOOGLE_API_KEY='your-google-api-key-here'
 
-# 4. Start analysis
-python3 work/intelligence/video-analysis/analyze-videos-gemini.py
+# 4. Start analysis (using convenient wrapper script)
+chmod +x work/intelligence/video-analysis/run-analysis.sh
+./work/intelligence/video-analysis/run-analysis.sh
+
+# Or run directly with venv Python:
+# work/intelligence/video-analysis/.venv/bin/python work/intelligence/video-analysis/analyze-videos-gemini.py
 ```
 
 **Then walk away.** Analysis runs automatically for ~1 hour.
@@ -182,9 +190,23 @@ du -sh work/archiving/douyin-backup-*/
 export GOOGLE_API_KEY='your-key-here'
 ```
 
+**Problem:** "uv: command not found"
+```bash
+# Install uv manually
+curl -LsSf https://astral.sh/uv/install.sh | sh
+source $HOME/.cargo/env
+# Then re-run setup script
+./work/intelligence/video-analysis/setup-gemini.sh
+```
+
+**Problem:** "externally-managed-environment" error
+- This is fixed by using uv and virtual environments (already handled in revised script)
+- The setup script now creates an isolated .venv directory
+
 **Problem:** google-generativeai not found
 ```bash
-pip3 install google-generativeai
+# Reinstall in venv
+uv pip install --python work/intelligence/video-analysis/.venv/bin/python google-generativeai
 ```
 
 **Problem:** Video upload fails
@@ -223,7 +245,7 @@ cd work/archiving && docker-compose up -d  # Restart
 | **Video Cost** | ~$87 | ~$0.40 |
 | **Setup Time** | 10 minutes | 5 minutes |
 | **Processing Time** | 4-6 hours | ~1 hour |
-| **Dependencies** | ffmpeg, whisper, anthropic, aiohttp | google-generativeai |
+| **Dependencies** | ffmpeg, whisper, anthropic, aiohttp | uv + google-generativeai (isolated venv) |
 | **Maintenance** | Complex multi-stage | Simple single-call |
 
 **Winner:** Gemini 2.5 Flash (simpler, faster, 217x cheaper!)
