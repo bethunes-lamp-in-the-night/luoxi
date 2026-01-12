@@ -11,7 +11,11 @@
       "Bash(find:*)",
       "WebFetch(domain:github.com)",
       "Bash(chmod:*)",
-      "Bash(pip3 list:*)"
+      "Bash(pip3 list:*)",
+      "Bash(if ! grep -q \"^\\\\.privacy/$\" .gitignore)",
+      "Bash(then echo \"Adding .privacy/ to .gitignore\")",
+      "Bash(else echo \".privacy/ already in .gitignore\")",
+      "Bash(fi)"
     ]
   }
 }

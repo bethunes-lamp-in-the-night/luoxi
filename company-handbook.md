@@ -37,6 +37,42 @@
 - Viral-first - optimize for engagement
 - Dual audience - Western and Chinese
 - Measurable impact - real-world change
+- **Protect collaborator anonymity** - no PII leaks (SECURITY-CRITICAL)
+
+---
+
+## Privacy & Security Requirements
+
+**MANDATORY for all agents:**
+
+### Never Write PII
+
+❌ **PROHIBITED:**
+- Absolute paths with usernames: `/Users/[username]/`, `/home/[username]/`
+- Real names, email addresses, personal social media handles
+- IP addresses, specific geographic locations (city-level or more specific)
+- Machine hostnames with user identifiers
+- API keys, credentials, tokens
+
+✅ **REQUIRED:**
+- Project-relative paths: `work/intelligence/file.md`
+- Generic absolute paths: `$PROJECT_ROOT/` or `/path/to/project/`
+- Geographic regions only: "China", "United States" (no cities)
+- Anonymized references: "human collaborator", "team member"
+
+### Privacy Review Process
+
+**After each phase completes:**
+1. CEO spawns Privacy Review Agent
+2. Agent scans all phase outputs for PII leaks
+3. Agent creates remediation plan (file fixes + git history rewrite)
+4. Human executes git history rewrite (only humans manage git history)
+5. CEO verifies clean before proceeding to next phase
+
+**Severity levels:**
+- 🚨 **CRITICAL** (names, locations, credentials): Halt all work, fix within 24hr
+- **HIGH** (usernames in paths): Include in remediation plan, fix before next phase
+- **MEDIUM** (correlatable metadata): Document, fix in normal workflow
 
 ---
 

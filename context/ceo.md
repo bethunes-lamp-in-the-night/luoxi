@@ -8,14 +8,29 @@
 ## Current Status
 
 **Phase 1:** ✅ COMPLETE (Grade A-)
-**Phase 1.5:** ✅ SCRIPTS READY, awaiting human execution (~25 min)
-**Phase 2:** Blocked until Phase 1.5 completes
+**Phase 1.5:** ✅ COMPLETE (Translation + Video Analysis + Archiving Scripts)
+**Privacy Review:** 🚨 URGENT - Must run before Phase 2
+**Phase 2:** Blocked until Privacy Review completes
 
-**Next Action:** Human executes Phase 1.5 → Then spawn M2.0 → Then M2.1/M2.2/M2.3
+**Next Action:**
+1. **URGENT:** Spawn Privacy Review Agent for Phase 1 + 1.5
+2. Human executes remediation plan (fix files + git history rewrite)
+3. Then spawn M2.0 → Then M2.1/M2.2/M2.3
 
 ---
 
 ## Critical Learnings (Session to Session)
+
+### 🚨 SECURITY FAILURE: PII Leaks (2026-01-11)
+- **Issue:** CEO and agents leaked ~77 instances of PII (absolute paths with usernames)
+- **Violated:** Charter principle to protect collaborator anonymity from retaliation
+- **Root Cause:** No privacy review process, no PII guidelines in handbook
+- **Corrected:**
+  - Created Privacy Review Agent (mandatory post-phase audits)
+  - Added privacy requirements to company-handbook.md
+  - Privacy agent creates remediation plans (file fixes + git history rewrite)
+- **Protocol:** Privacy Review Agent runs after EVERY phase before proceeding
+- **Current Status:** Phase 1/1.5 outputs have HIGH severity leaks, remediation pending
 
 ### Agents Must Be Maximally Scriptable
 - **Issue:** Phase 1.5 agents initially created human-heavy workflows (8-20 hours manual labor)
@@ -27,6 +42,12 @@
 - **Solution:** M2.0 consolidates all Phase 1+1.5 → single brief (~15-20KB)
 - **Pattern:** Each phase starts with Brief Creator before execution agents
 - **Critical:** Phase 1.5 MUST complete BEFORE M2.0 runs (dependency)
+
+### Agent Output Standards (2026-01-11)
+- **Problem:** File bloat, redundant summaries (URGENT-CEO-BRIEFING.md + START-HERE.md + README.md)
+- **Solution:** Standardized AGENT-REPORT-[name].md format (see company-handbook.md)
+- **Pattern:** ONE report per agent, clear file taxonomy (for-humans/, research/)
+- **Result:** Reduced redundancy, predictable structure
 
 ### Agent Scope Discipline
 - Agents execute task → flag blockers → don't solve cross-cutting issues

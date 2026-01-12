@@ -27,6 +27,7 @@
 - Work must be savable and resumable through files
 - CEO context is in context/ceo.md (CEO only, not for subagents)
 - All work artifacts go in work/(role name)/(files)
+- You can read git states and history, but you must never run transactional source control commands
 
 ## Core Principles
 - Truth only - never fabricate

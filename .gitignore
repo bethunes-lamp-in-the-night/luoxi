@@ -1,2 +1,5 @@
 /media/
 /sources/
+
+# Privacy review outputs (contain specific PII for remediation - NEVER commit)
+.privacy/

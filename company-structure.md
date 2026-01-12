@@ -1,6 +1,6 @@
 # Company Structure - Subagent Roles
 
-**Total Agents:** 25 (16 execution + 5 consolidators/coordinators + 4 phase lieutenants)
+**Total Agents:** 26 (16 execution + 5 consolidators/coordinators + 4 phase lieutenants + 1 security)
 
 All agent instruction files follow [Claude Code sub-agent format](https://code.claude.com/docs/en/sub-agents) with YAML frontmatter.
 
@@ -189,16 +189,46 @@ All agent instruction files follow [Claude Code sub-agent format](https://code.c
 
 ---
 
+## Security & Privacy (Post-Phase Audits)
+
+### 26. Privacy Review Agent
+**Responsibility:** Scan all phase outputs for PII leaks, create remediation plans
+**Output:** work/[phase-dir]/PRIVACY-REMEDIATION-PLAN.md, AGENT-REPORT-privacy-review-agent.md
+**Agent:** `.claude/agents/privacy-review-agent.md` ✅ CREATED
+**Trigger:** After each phase completes, before proceeding to next phase
+**Critical Mission:** Protect human collaborator anonymity from retaliation (SECURITY-CRITICAL)
+
+**PII Categories:**
+- Absolute paths with usernames (`/Users/[username]/`)
+- Real names, emails, personal social media handles
+- IP addresses, specific geographic locations
+- API keys, credentials, machine hostnames
+
+**Deliverables:**
+1. AGENT-REPORT with leak count and severity
+2. PRIVACY-REMEDIATION-PLAN.md with:
+   - File-by-file leak documentation
+   - sed commands for fixing working files
+   - git filter-repo commands for rewriting history (human executes)
+
+**Severity Protocol:**
+- 🚨 CRITICAL (names, locations, credentials): Halt all work, fix within 24hr
+- HIGH (usernames in paths): Fix before next phase
+- MEDIUM (correlatable metadata): Fix in normal workflow
+
+---
+
 # Agent Summary
 
-**Total Agents: 25**
+**Total Agents: 26**
 
 **Phase 1 (4 agents + 1 lieutenant):** Intelligence gathering and source consolidation ✅ COMPLETE
-**Phase 1.5 (3 agents):** Translation, video analysis, archiving coordination 🔜 NEXT
-**Phase 2 (1 consolidator + 3 narrative + 1 lieutenant):** M2.0 consolidates → then narrative frameworks 🔜 AFTER 1.5
+**Phase 1.5 (3 agents):** Translation, video analysis, archiving coordination ✅ COMPLETE
+**Phase 2 (1 consolidator + 3 narrative + 1 lieutenant):** M2.0 consolidates → then narrative frameworks 🔜 NEXT
 **Phase 3 (1 consolidator + 6 production + 1 lieutenant):** Production brief + scriptable content system
 **Phase 4+ (1 agent):** Performance analysis and optimization
 **Ongoing (1 agent):** Intelligence monitoring
+**Security (1 agent):** Post-phase privacy review (runs after each phase)
 
 **Key Patterns:**
 - **Phase Consolidators:** Each phase starts with brief creator (M2.0, M3.0) to synthesize previous phase
@@ -247,7 +277,12 @@ All agent instruction files follow [Claude Code sub-agent format](https://code.c
 **Ongoing - Intelligence Monitor:**
 - work/intelligence/ (all intelligence outputs)
 - work/ceo/strategy.md (milestone tracking)
-- Chinese internet sources (weekly monitoring)
+
+**Security - Privacy Review Agent:**
+- work/[phase-dir]/ (all outputs from completed phase)
+- Scans: *.md, *.py, *.sh, *.txt files for PII leaks
+- Does NOT edit files without CEO approval
+- Creates remediation plans for human execution
 
 **CEO reads:**
 - context/ceo.md (session persistence)
