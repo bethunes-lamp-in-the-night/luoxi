@@ -1,84 +1,89 @@
 # CEO Context (Session Persistence)
 
 **Date:** 2026-01-11
-**For incident facts, see incident.md**
+**Mission:** Viral social media → Mainstream media → Authority response → Systemic reform
 
 ---
 
 ## Current Status
 
 **Phase 1:** ✅ COMPLETE (Grade A-)
-- 70 sources, 50 files catalogued, 150+ facts verified, 5 viral opportunities identified
-- Deliverables: work/intelligence/ (12 files ~300KB)
+**Phase 1.5:** ✅ SCRIPTS READY, awaiting human execution (~25 min)
+**Phase 2:** Blocked until Phase 1.5 completes
 
-**Next:** Phase 1.5 (Translation, Video, Archiving) → THEN M2.0 → THEN Phase 2 (Narratives)
-
----
-
-## Critical Constraints
-
-1. **3-month mission window** - capitalize on momentum before censorship/attention fade
-2. **ONE human worker only** - maximize scriptability
-3. **No external Chinese expert help** - censorship risk, personal danger
-4. **95% content Chinese-only** - translation bottleneck (Phase 1.5 addresses)
-5. **NO GUI tools** - only prompt-driven AI (Runway, ElevenLabs, Midjourney, etc.)
-6. **Don't boil ocean** - complete all milestones, skip perfection details
-7. **Agents flag blockers, don't solve** - CEO coordinates cross-cutting issues
+**Next Action:** Human executes Phase 1.5 → Then spawn M2.0 → Then M2.1/M2.2/M2.3
 
 ---
 
-## Phase 1 Key Intelligence
+## Critical Learnings (Session to Session)
 
-**Evidence:** Ironclad autopsy proof - hospital diagnosed 7mm defect requiring surgery, autopsy found NO such defect (only 3mm, 80% self-heal)
-**Viral Assets:** Before/after photos, grandmother feeding empty clothes, 290K Douyin followers
-**Top Narrative:** "Surgery That Didn't Need to Happen"
-**Window:** 2-4 weeks before censorship escalation
-**Western Media:** ZERO coverage (first-mover advantage)
+### Agents Must Be Maximally Scriptable
+- **Issue:** Phase 1.5 agents initially created human-heavy workflows (8-20 hours manual labor)
+- **Corrected:** AI-driven automation (Gemini 2.5 Flash $0.40 vs original $87)
+- **Principle:** "Maximally scriptable" = agent-driven with minimal human setup
 
-**Gaps Identified:**
-- Translation (95% Chinese content) → Phase 1.5 Translation Coordinator
-- Videos not watched (21 files) → Phase 1.5 Video Analyst
-- Archiving not done (URGENT 24-48hr) → Phase 1.5 Archiving Specialist
+### Phase Consolidator Pattern
+- **Problem:** M2 agents reading 12 M1 files (~300KB) = context bloat
+- **Solution:** M2.0 consolidates all Phase 1+1.5 → single brief (~15-20KB)
+- **Pattern:** Each phase starts with Brief Creator before execution agents
+- **Critical:** Phase 1.5 MUST complete BEFORE M2.0 runs (dependency)
 
----
-
-## Strategic Learnings
-
-**Inter-phase Communication Fix:**
-- Problem: M2 agents would read 12 M1 files (~300KB)
-- Solution: Each phase starts with Brief Creator (synthesizes previous phase into 15-20KB)
-- Pattern: M2.0 creates media-index-brief.md for M2.1/M2.2/M2.3
-- **CRITICAL:** Phase 1.5 must complete FIRST, then M2.0 consolidates, then M2.1/M2.2/M2.3 run
-
-**Agent Scope Clarity:**
-- Agents execute task, flag blockers to CEO, stay in scope
-- Agents DON'T spawn other agents, solve cross-cutting issues, or be proactive
+### Agent Scope Discipline
+- Agents execute task → flag blockers → don't solve cross-cutting issues
 - CEO coordinates translation, archiving, human-dependent tasks
+- Lieutenants QA → CEO reads reports (not all agent outputs)
 
-**Company Structure:**
-- 25 agent roles total (added: Translation, Video, Archiving, 2 Brief Creators, Phase Lieutenants)
-- Phase Lieutenants do QA → CEO reads reports, not all outputs
-- Keeps CEO context clean
+### Research-Verify Tools
+- **yt-dlp for Douyin:** ❌ Broken (2024-2025 GitHub issues)
+- **Gemini 2.5 Flash for video:** ✅ 217x cheaper than ffmpeg+Whisper+Claude pipeline
+- **Lesson:** Don't assume tools work - research verify first
+
+---
+
+## Key Constraints (Driving Decisions)
+
+1. **3-month mission window** → Skip perfection, complete milestones
+2. **ONE human worker** → Everything must be scriptable/automated
+3. **NO GUI tools** → Only prompt-driven AI (Runway, Midjourney, etc.)
+4. **Translation bottleneck** → Internal AI translation (Phase 1.5 solved)
+
+---
+
+## Phase 1.5 Ready to Execute
+
+**What's ready:**
+- Translation: ✅ COMPLETE (140KB English content)
+- Video: ✅ Gemini 2.5 Flash scripts ($0.40, 1 hour)
+- Archiving: ✅ Douyin_TikTok_Download_API scripts ($0, Docker-based)
+
+**Human task:** 25 minutes setup → automated overnight
+
+**File:** `EXECUTE-PHASE-1.5-FINAL.md`
 
 ---
 
 ## Next Session Re-hydration
 
-**Read on next spawn:**
-1. context/ceo.md (this file)
-2. work/phase-1-report.md (Phase 1 Lieutenant QA summary)
-3. Check work/ceo/strategy.md and company-structure.md for latest plan
+**When CEO spawns next time, read:**
+1. This file (context/ceo.md)
+2. work/ceo/strategy.md (latest plan)
+3. work/phase-1-report.md (Phase 1 QA summary)
+4. Check if Phase 1.5 complete → spawn M2.0 or wait
 
-**DO NOT read:** work/intelligence/ files (too much context, delegate to lieutenants)
+**Don't read:** work/intelligence/ files (delegate to M2.0 consolidator)
 
 ---
 
 ## Human Actions Needed
 
 **URGENT (24-48hr):**
-- Execute archiving: Download family Douyin (@小洛熙妈妈, 292K followers)
+- Execute archiving: Download @小洛熙妈妈 Douyin content
 
-**Decisions:**
-- Approve updated strategy.md and company-structure.md?
-- Proceed to Phase 1.5 spawn (Translation, Video, Archiving)?
-- After Phase 1.5 completes: spawn M2.0 → then M2.1/M2.2/M2.3
+**Phase 1.5 Execution (25 min):**
+1. Get Google API key (5 min)
+2. Run Gemini video setup (5 min)
+3. Extract Douyin cookies + start Docker (20 min)
+
+**After Phase 1.5 completes:**
+- CEO spawns M2.0 (Media Index Brief Creator)
+- Then M2.1/M2.2/M2.3 (Narrative Strategists)

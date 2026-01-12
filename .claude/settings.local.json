@@ -5,7 +5,12 @@
       "WebFetch(domain:www.visiontimes.com)",
       "WebFetch(domain:www.sixthtone.com)",
       "WebFetch(domain:mothership.sg)",
-      "Bash(ls:*)"
+      "Bash(ls:*)",
+      "Bash(ffprobe:*)",
+      "Bash(wc:*)",
+      "Bash(find:*)",
+      "WebFetch(domain:github.com)",
+      "Bash(chmod:*)"
     ]
   }
 }
