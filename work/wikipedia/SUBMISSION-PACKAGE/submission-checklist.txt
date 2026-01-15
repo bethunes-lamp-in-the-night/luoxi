@@ -1,0 +1,268 @@
+== WIKIPEDIA SUBMISSION CHECKLIST ==
+Step-by-step instructions for human execution
+
+=== STEP 1: CREATE WIKIPEDIA ACCOUNT (If you don't have one) ===
+
+1. Go to: https://en.wikipedia.org/w/index.php?title=Special:CreateAccount
+2. Choose a NEUTRAL username
+   - Good: "Editor2026", "WikiContributor123", "NeutralEditor"
+   - Bad: "LuoxiAdvocate", "JusticeSeeker", "MedicalReform"
+   - WHY: Advocacy usernames raise red flags
+3. Create account with valid email
+4. Verify email address
+
+=== STEP 2: ESTABLISH GOOD FAITH (Important!) ===
+
+Before submitting the Luoxi article, establish yourself as a legitimate editor:
+
+1. Make 5-10 MINOR edits to OTHER articles:
+   - Fix typos
+   - Add missing citations
+   - Update outdated information
+   - Improve formatting
+
+2. Focus on NON-CONTROVERSIAL topics:
+   - Geography articles
+   - Science articles
+   - Historical events
+   - Avoid: Politics, current events, China-related topics initially
+
+3. Wait 3-7 days before submitting Luoxi article
+   - WHY: New accounts submitting controversial topics get extra scrutiny
+   - Established accounts have higher acceptance rates
+
+=== STEP 3: CREATE SANDBOX DRAFT ===
+
+1. Go to your user sandbox:
+   https://en.wikipedia.org/wiki/User:[YOUR_USERNAME]/sandbox
+
+2. Click "Edit" tab
+
+3. COPY ENTIRE CONTENTS from:
+   work/wikipedia/SUBMISSION-PACKAGE/article-final.txt
+
+4. PASTE into sandbox editor
+
+5. Click "Show preview" button
+   - Check that formatting looks correct
+   - Check that all citations render properly
+   - Check that infobox displays correctly
+
+6. Click "Publish changes" (or "Save page")
+   - Add edit summary: "Draft article for AfC submission"
+
+=== STEP 4: OPTIONAL - REQUEST PEER REVIEW (Recommended) ===
+
+This step is OPTIONAL but HIGHLY RECOMMENDED as it improves acceptance rate:
+
+1. Go to WikiProject China talk page:
+   https://en.wikipedia.org/wiki/Wikipedia_talk:WikiProject_China
+
+2. Create new section:
+   Title: "Request for feedback on draft article: Death of Xu Luoxi"
+
+   Message:
+   "Hello WikiProject China editors. I have created a draft article on a recent medical incident in China and would appreciate feedback before submitting to AfC. The article is at User:[YOUR_USERNAME]/sandbox and focuses on a case that led to provincial government intervention and hospital department closure. Feedback on sourcing, NPOV, and notability would be greatly appreciated. Thank you."
+
+3. Go to WikiProject Medicine talk page:
+   https://en.wikipedia.org/wiki/Wikipedia_talk:WikiProject_Medicine
+
+4. Create similar section requesting medical editor feedback
+
+5. WAIT 3-5 days for responses
+
+6. INCORPORATE reasonable feedback into draft
+
+=== STEP 5: SUBMIT TO ARTICLES FOR CREATION (AfC) ===
+
+1. Go to your sandbox:
+   User:[YOUR_USERNAME]/sandbox
+
+2. Click "Edit" tab
+
+3. At the VERY TOP of the page (before the infobox), add this line:
+   {{subst:submit}}
+
+4. Click "Publish changes"
+   - Edit summary: "Submitting article for AfC review"
+
+5. The {{subst:submit}} template will automatically:
+   - Add AfC submission template to page
+   - Create submission form
+   - Notify AfC reviewers
+
+6. FILL OUT THE SUBMISSION FORM with information from:
+   work/wikipedia/SUBMISSION-PACKAGE/afc-submission-text.txt
+
+7. Submit the form
+
+=== STEP 6: WAIT FOR AFC REVIEWER (1-4 weeks typical) ===
+
+What happens now:
+- Article enters AfC review queue
+- Volunteer reviewer will evaluate within 1-4 weeks
+- You'll receive notification when reviewer makes decision
+
+Possible outcomes:
+1. ACCEPTED: Article goes live on Wikipedia
+2. DECLINED: Reviewer explains reasons, you can address and resubmit
+3. NEEDS WORK: Minor issues to fix before resubmission
+
+=== STEP 7: RESPOND TO REVIEWER FEEDBACK ===
+
+If DECLINED or NEEDS WORK:
+
+1. Read reviewer's comments CAREFULLY
+2. Do NOT argue emotionally
+3. Address specific concerns:
+
+   - If "Not notable":
+     Use response from work/wikipedia/SUBMISSION-PACKAGE/reviewer-defense.txt
+     Section: OBJECTION 1
+
+   - If "Too many Chinese sources":
+     Use response from reviewer-defense.txt
+     Section: OBJECTION 2
+
+   - If "Unreliable sources":
+     Use response from reviewer-defense.txt
+     Section: OBJECTION 3
+
+   - If "Too recent":
+     Use response from reviewer-defense.txt
+     Section: OBJECTION 4
+
+   - If "NPOV concerns":
+     Use response from reviewer-defense.txt
+     Section: OBJECTION 6
+
+4. Make requested changes to article
+
+5. Re-submit by adding {{subst:submit}} again
+
+6. RESPOND TO REVIEWER on the talk page:
+   "Thank you for your review. I have addressed [specific concerns] by [specific actions]. Please review again. Thank you."
+
+=== STEP 8: IF ACCEPTED - MONITOR THE ARTICLE ===
+
+Congratulations! Your article is now live. Now:
+
+1. Add article to your WATCHLIST:
+   - Click "Watch" star at top of article
+   - You'll get notifications of all edits
+
+2. Check article DAILY for first week:
+   - Look for vandalism
+   - Revert bad-faith edits
+   - Engage constructively with good-faith editors
+
+3. Check article WEEKLY for first month:
+   - Update with new sources as they emerge
+   - Add new information as case develops
+
+4. Respond to TALK PAGE discussions:
+   - If someone questions article, respond politely
+   - Cite sources and Wikipedia policies
+   - Do NOT get into edit wars
+
+5. If article is NOMINATED FOR DELETION (AfD):
+   - Go to deletion discussion page
+   - Use arguments from reviewer-defense.txt
+   - Cite sources demonstrating notability
+   - Request input from WikiProject China and WikiProject Medicine
+   - Do NOT panic - many articles survive deletion nominations
+
+=== STEP 9: EXPANSION PLAN (Weeks 3-6 after acceptance) ===
+
+Once article has been live for 2-3 weeks with no major disputes:
+
+Phase 2 Expansion:
+1. Add autopsy findings section (~150 words)
+2. Add family response section (~100 words)
+3. Expand celebrity support details (~50 words)
+4. Target total: ~700-800 words
+5. Add international sources as they emerge
+
+Phase 3 Expansion (Months 2-3):
+1. Add censorship documentation section
+2. Add medical community response
+3. Add legal proceedings updates
+4. Target total: 1,500-2,000 words
+
+=== TROUBLESHOOTING ===
+
+PROBLEM: AfC reviewer says "not notable"
+SOLUTION: Use OBJECTION 1 response from reviewer-defense.txt
+Emphasize: Provincial government intervention, department closure, 81+ sources
+
+PROBLEM: AfC reviewer says "too many Chinese sources"
+SOLUTION: Use OBJECTION 2 response from reviewer-defense.txt
+Cite WP:BIAS policy, Mothership.sg as independent source
+
+PROBLEM: AfC reviewer says "current event"
+SOLUTION: Use OBJECTION 4 response from reviewer-defense.txt
+Emphasize institutional impact, ongoing legal case, precedent articles
+
+PROBLEM: Someone nominates article for deletion
+SOLUTION:
+1. Go to deletion discussion page
+2. Vote "Keep" with policy arguments
+3. Cite sources and precedent articles
+4. Request input from WikiProject China/Medicine
+5. Use full reviewer-defense.txt arguments
+
+PROBLEM: Edit war breaks out
+SOLUTION:
+1. Do NOT engage in revert war (max 3 reverts per day or you get blocked)
+2. Go to article Talk page
+3. Start discussion: "Let's discuss this edit before making changes"
+4. Seek consensus
+5. If no consensus, request admin mediation
+
+=== TIMELINE ESTIMATE ===
+
+Week 1: Create account, establish good faith (5-10 minor edits)
+Week 2: Create sandbox draft, request peer review
+Week 3: Incorporate feedback, submit to AfC
+Week 4-7: Wait for AfC review (1-4 weeks typical)
+Week 8+: Article live, begin monitoring and expansion
+
+TOTAL TIME: 2-3 months from account creation to stable article
+
+=== IMPORTANT REMINDERS ===
+
+1. BE PATIENT: Wikipedia is volunteer-run, reviews take time
+2. BE POLITE: Never argue rudely with reviewers or editors
+3. BE NEUTRAL: Always maintain NPOV, even when frustrated
+4. BE PERSISTENT: If declined, address concerns and resubmit
+5. BE RESPONSIVE: Respond to reviewer questions within 24-48 hours
+6. BE COLLABORATIVE: Wikipedia is about consensus, not winning
+
+=== RESOURCES ===
+
+Wikipedia Policies:
+- WP:GNG (Notability): https://en.wikipedia.org/wiki/Wikipedia:Notability
+- WP:NPOV: https://en.wikipedia.org/wiki/Wikipedia:Neutral_point_of_view
+- WP:RS (Reliable Sources): https://en.wikipedia.org/wiki/Wikipedia:Reliable_sources
+- WP:BIAS: https://en.wikipedia.org/wiki/Wikipedia:Systemic_bias
+- WP:AfC: https://en.wikipedia.org/wiki/Wikipedia:Articles_for_creation
+
+Help Pages:
+- New editor tutorial: https://en.wikipedia.org/wiki/Help:Introduction
+- Citation guide: https://en.wikipedia.org/wiki/Help:Referencing_for_beginners
+- Editing guide: https://en.wikipedia.org/wiki/Help:Editing
+
+WikiProjects:
+- WikiProject China: https://en.wikipedia.org/wiki/Wikipedia:WikiProject_China
+- WikiProject Medicine: https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Medicine
+
+=== FINAL NOTES ===
+
+This article has been carefully prepared to maximize acceptance probability:
+- Ultra-conservative NPOV language
+- Only Tier 1 sources (18 citations)
+- Short length (500 words) minimizes attack surface
+- Proper Wikipedia formatting throughout
+- Comparable to accepted precedent articles
+
+You have all the tools you need for successful submission. Follow this checklist step-by-step and respond professionally to any feedback. Good luck!

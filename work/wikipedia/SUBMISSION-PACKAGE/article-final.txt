@@ -1,0 +1,39 @@
+{{Infobox person
+| name               = Xu Luoxi
+| native_name        = 徐洛熙
+| native_name_lang   = zh
+| birth_date         = {{Birth date|2025|05|26}}
+| birth_place        = [[Ningbo]], [[Zhejiang]], China
+| death_date         = {{Death date and age|2025|11|14|2025|05|26}}
+| death_place        = Ningbo Women & Children's Hospital, [[Ningbo]], [[Zhejiang]], China
+| death_cause        = Complications following heart surgery
+| known_for          = Medical incident leading to hospital department closure
+}}
+
+'''Xu Luoxi''' ({{zh|c=徐洛熙}}; May 26, 2025 – November 14, 2025) was a five-month-old Chinese infant who died following heart surgery at Ningbo Women & Children's Hospital in [[Zhejiang Province]], China.<ref>{{cite news|title=宁波"小洛熙术后身亡"事件最新：医疗事故技术鉴定启动|url=https://m.thepaper.cn/newsDetail_forward_32238037|publisher=澎湃新闻 (The Paper)|date=2025-12-23|language=zh|access-date=2026-01-14}}</ref> The case received coverage in regional Asian media including Singapore's Mothership and international English-language outlets.<ref>{{cite news|title=5-month-old baby girl in China dies after heart surgery that surgeon said had 99.5% success rate|url=https://mothership.sg/2025/12/china-5-month-old-die-heart-surgery/|website=Mothership|date=2025-12-20|access-date=2026-01-14}}</ref><ref>{{cite news|title=Zhejiang authorities dispatch working group to strengthen supervision over follow-up handling of infant death case in Ningbo|url=https://www.globaltimes.cn/page/202512/1351306.shtml|publisher=Global Times|date=2025-12-23|access-date=2026-01-14}}</ref> An autopsy conducted in December 2025 found discrepancies between the hospital's diagnosis and post-mortem examination results,<ref>{{cite news|title=韩红发声 洛熙妈妈公开尸检报告|url=https://finance.sina.com.cn/roll/2025-12-20/doc-inhcmwzi1233767.shtml|publisher=新浪财经 (Sina Finance)|date=2025-12-20|language=zh|access-date=2026-01-14}}</ref> prompting the Zhejiang Provincial Committee to dispatch an investigation work group<ref>{{cite news|title=浙江省委派出工作组|url=https://www.guancha.cn/politics/2025_12_23_801405.shtml|publisher=观察者网 (Guancha)|date=2025-12-23|language=zh|access-date=2026-01-14}}</ref> and the hospital to suspend its entire pediatric cardiothoracic surgery department.<ref>{{cite news|title=宁波妇儿医院小儿心胸外科停诊|url=https://www.nbd.com.cn/articles/2025-12-22/4189785.html|publisher=每经网 (Every Economic Daily)|date=2025-12-22|language=zh|access-date=2026-01-14}}</ref>
+
+== Background and death ==
+
+Xu Luoxi was diagnosed with an [[atrial septal defect]] and underwent surgery on November 14, 2025, at approximately 4:22 PM. The hospital had diagnosed a 7-millimeter coronary sinus-type atrial septal defect requiring surgical repair.<ref>{{cite news|title=宁波小洛熙事件时间线回顾|url=https://finance.sina.com.cn/jjxw/2025-12-24/doc-inhcwtcp4508863.shtml|publisher=新浪财经 (Sina Finance)|date=2025-12-24|language=zh|access-date=2026-01-14}}</ref> She died approximately six hours after surgery began.<ref>{{cite web|title=Baby girl's death in Ningbo hospital sparks outrage|url=https://www.sixthtone.com/news/1017970|publisher=Sixth Tone|date=2025-12-23|access-date=2026-01-14}}</ref>
+
+An autopsy conducted by forensic pathologist Liu Liang was completed on December 11, 2025. According to news reports citing the autopsy findings, the specific type of atrial septal defect that the hospital claimed required immediate surgery was not found in the post-mortem examination.<ref>{{cite news|title=5个月婴儿尸检报告：手术创口未缝合|url=https://view.inews.qq.com/a/20251220A04SBM00|publisher=腾讯新闻 (Tencent News)|date=2025-12-20|language=zh|access-date=2026-01-14}}</ref> The family rejected the hospital's compensation offer and launched a social media campaign that attracted over 290,000 followers on [[Douyin]].<ref>{{cite news|title=为小洛熙发声的明星：韩红、何穗、王劲松|url=https://www.163.com/dy/article/KHHRK6KL051780D4.html|publisher=网易 (NetEase)|date=2025-12-21|language=zh|access-date=2026-01-14}}</ref>
+
+== Official response ==
+
+On December 22, 2025, Ningbo Women & Children's Hospital suspended operations of its entire pediatric cardiothoracic surgery department pending investigation.<ref>{{cite news|title=宁波妇儿医院小儿心胸外科停诊|url=https://www.nbd.com.cn/articles/2025-12-22/4189785.html|publisher=每经网 (Every Economic Daily)|date=2025-12-22|language=zh|access-date=2026-01-14}}</ref> The following day, the Zhejiang Provincial Committee dispatched a work group to oversee the investigation and initiated a medical malpractice appraisal process.<ref>{{cite news|title=宁波"小洛熙术后身亡"事件最新：医疗事故技术鉴定启动|url=https://m.thepaper.cn/newsDetail_forward_32238037|publisher=澎湃新闻 (The Paper)|date=2025-12-23|language=zh|access-date=2026-01-14}}</ref><ref>{{cite news|title=Xiao Luoxi post-surgery death latest: Medical malpractice appraisal initiated|url=https://world.chinadaily.com.cn/a/202512/23/WS694b94d2a310942cc4998519.html|publisher=China Daily|date=2025-12-23|language=en|access-date=2026-01-14}}</ref><ref>{{cite news|title=Medical Appraisal Launched After 5-Month-Old Dies in Heart Surgery|url=https://www.citynewsservice.cn/articles/shanghaidaily/news/medical-appraisal-launched-after-5-month-old-dies-in-heart-surgery-ekdqq4bm|publisher=City News Service|date=2025-12-23|access-date=2026-01-14}}</ref>
+
+=== Public response ===
+
+The family's social media account documenting the case reached 292,769 followers on Douyin.<ref>{{cite news|title=为小洛熙发声的明星：韩红、何穗、王劲松|url=https://www.163.com/dy/article/KHHRK6KL051780D4.html|publisher=网易 (NetEase)|date=2025-12-21|language=zh|access-date=2026-01-14}}</ref> Chinese celebrities including singer [[Han Hong]] and model [[He Sui]] expressed support for the family's pursuit of accountability.<ref>{{cite news|title=韩红发声 洛熙妈妈公开尸检报告|url=https://finance.sina.com.cn/roll/2025-12-20/doc-inhcmwzi1233767.shtml|publisher=新浪财经 (Sina Finance)|date=2025-12-20|language=zh|access-date=2026-01-14}}</ref><ref>{{cite news|title=Trending: He Sui Addresses Viral Case of Infant Death in China Amid Suspected Malpractice|url=https://en.layarhijau.com/2025/11/29/trending-he-sui-addresses-viral-case-of-infant-death-in-china-amid-suspected-malpractice/|publisher=Layar Hijau|date=2025-11-29|access-date=2026-01-14}}</ref> International petitions calling for investigation received thousands of signatures.<ref>{{cite web|title=Call for justice: How a "Successful" Heart Surgery Led to the Death of a 5-Month-Old Infant|url=https://www.change.org/p/call-for-justice-how-a-successful-heart-surgery-led-to-the-death-of-a-5-month-old-infant|website=Change.org|access-date=2026-01-14}}</ref>
+
+== References ==
+{{Reflist}}
+
+== External links ==
+* [https://chinadigitaltimes.net/chinese/723781.html China Digital Times documentation of censored coverage]
+
+[[Category:2025 deaths]]
+[[Category:Medical controversies in China]]
+[[Category:November 2025 events in China]]
+[[Category:People from Ningbo]]
+[[Category:Atrial septal defect]]

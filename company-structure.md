@@ -1,6 +1,6 @@
 # Company Structure - Subagent Roles
 
-**Total Agents:** 26 (16 execution + 5 consolidators/coordinators + 4 phase lieutenants + 1 security)
+**Total Agents:** 29 (19 execution + 5 consolidators/coordinators + 4 phase lieutenants + 1 security)
 
 All agent instruction files follow [Claude Code sub-agent format](https://code.claude.com/docs/en/sub-agents) with YAML frontmatter.
 
@@ -121,57 +121,105 @@ All agent instruction files follow [Claude Code sub-agent format](https://code.c
 
 ---
 
-## Phase 3: Content Production Infrastructure (Days 2-3)
+## Phase 3: Viral Mechanics & Growth Strategy (NEW - Days 2-3)
 
-### 14. Production Brief Creator (PHASE CONSOLIDATOR)
-**Responsibility:** Synthesize all Phase 2 narrative frameworks
-**Output:** work/production/production-brief.md
-**Agent:** `.claude/agents/production-brief-creator.md` 🔜
-**Input:** media-index-brief.md + all Phase 2 frameworks
-**Critical:** M3.1-M3.6 read this instead of all Phase 2 files
+### 14. Viral Mechanics Researcher
+**Responsibility:** Research platform algorithms and viral content mechanics
+**Output:** work/viral-mechanics/platform-algorithms.md
+**Agent:** `.claude/agents/viral-mechanics-researcher.md` 🔜
+**Research Areas:**
+- TikTok FYP algorithm triggers, hook timing, retention curves
+- Instagram Reels optimization (hashtags, audio trends, posting times)
+- YouTube Shorts vs Long-form conversion mechanics
+- X/Twitter thread virality patterns and engagement triggers
+- Hook formulas, pattern interrupts, A/B testing frameworks
+- Optimal posting schedules by platform and timezone
 
-### 15. AI Tools Researcher
-**Responsibility:** Research prompt-driven AI content generation tools
-**Output:** work/production/ai-tools-vetted.md
-**Agent:** `.claude/agents/ai-tools-researcher.md` ✅ (needs update)
-**Critical:** Must find scriptable, prompt-driven tools only
+### 15. Growth Hacking Strategist
+**Responsibility:** Develop influencer collaboration and cross-platform amplification tactics
+**Output:** work/viral-mechanics/growth-tactics.md
+**Agent:** `.claude/agents/growth-hacking-strategist.md` 🔜
+**Focus Areas:**
+- Influencer collaboration playbook (micro vs macro influencers)
+- Community building strategies
+- Cross-platform amplification tactics
+- Paid vs organic balance recommendations
+- Viral loop engineering
+- User-generated content strategies
 
-### 16. TikTok Strategist
-**Responsibility:** TikTok strategy and scriptable content prompts
-**Output:** work/production/tiktok-strategy.md, tiktok-ai-prompts/
-**Agent:** `.claude/agents/tiktok-strategist.md` ✅ (needs update)
+### 16. Wikipedia Strategist
+**Responsibility:** Wikipedia article creation strategy and execution plan
+**Output:** work/wikipedia/strategy.md, work/wikipedia/article-draft.md
+**Agent:** `.claude/agents/wikipedia-strategist.md` 🔜
+**Deliverables:**
+- Notability assessment (media coverage meets Wikipedia criteria?)
+- Article structure planning (lead section, timeline, evidence, reception)
+- Citation building strategy (reliable sources inventory)
+- Neutral point of view (NPOV) compliance strategy
+- Article draft ready for human submission
 
-### 17. YouTube Shorts Strategist
-**Responsibility:** YouTube Shorts strategy and scriptable prompts
-**Output:** work/production/youtube-strategy.md, youtube-ai-prompts/
-**Agent:** `.claude/agents/youtube-strategist.md` ✅ (needs update)
-
-### 18. Instagram Strategist
-**Responsibility:** Instagram (Reels, posts, Stories) strategy and prompts
-**Output:** work/production/instagram-strategy.md, instagram-ai-prompts/
-**Agent:** `.claude/agents/instagram-strategist.md` ✅ (needs update)
-
-### 19. X/Twitter Strategist
-**Responsibility:** X strategy with threads and viral tweets
-**Output:** work/production/x-strategy.md, x-text-prompts/
-**Agent:** `.claude/agents/x-strategist.md` ✅ (needs update)
-
-### 20. Content Production Coordinator
-**Responsibility:** Synthesize all platform strategies into unified production system
-**Output:** work/production/master-production-workflow.md, prompt-library/
-**Agent:** `.claude/agents/content-production-coordinator.md` ✅ (needs update)
-**Critical:** Creates Batch 1 (20-30 pieces) ready-to-execute prompts
-
-### 21. Phase 3 Lieutenant
-**Responsibility:** QA Phase 3 agent deliverables
+### 17. Phase 3 Lieutenant
+**Responsibility:** QA Phase 3 viral mechanics deliverables
 **Output:** work/phase-3-report.md
 **Agent:** To be spawned after Phase 3 completion
 
 ---
 
-## Phase 4-7: Launch & Growth
+## Phase 4: Content Production Infrastructure (Days 4-5)
 
-### 22. Performance Analyst
+### 18. Production Brief Creator (PHASE CONSOLIDATOR)
+**Responsibility:** Synthesize Phase 2 narratives + Phase 3 viral mechanics
+**Output:** work/production/production-brief.md
+**Agent:** `.claude/agents/production-brief-creator.md` 🔜
+**Input:** media-index-brief.md + Phase 2 frameworks + Phase 3 viral mechanics research
+**Critical:** M4.1-M4.6 read this instead of all previous phase files
+
+### 19. AI Tools Researcher
+**Responsibility:** Research prompt-driven AI content generation tools
+**Output:** work/production/ai-tools-vetted.md
+**Agent:** `.claude/agents/ai-tools-researcher.md` ✅ (needs update)
+**Critical:** Must find scriptable, prompt-driven tools only
+
+### 20. TikTok Strategist
+**Responsibility:** TikTok strategy and scriptable content prompts
+**Output:** work/production/tiktok-strategy.md, tiktok-ai-prompts/
+**Agent:** `.claude/agents/tiktok-strategist.md` ✅ (needs update)
+**Input:** Phase 3 viral mechanics research + Phase 2 narrative frameworks
+
+### 21. YouTube Shorts Strategist
+**Responsibility:** YouTube Shorts strategy and scriptable prompts
+**Output:** work/production/youtube-strategy.md, youtube-ai-prompts/
+**Agent:** `.claude/agents/youtube-strategist.md` ✅ (needs update)
+**Input:** Phase 3 viral mechanics research + Phase 2 narrative frameworks
+
+### 22. Instagram Strategist
+**Responsibility:** Instagram (Reels, posts, Stories) strategy and prompts
+**Output:** work/production/instagram-strategy.md, instagram-ai-prompts/
+**Agent:** `.claude/agents/instagram-strategist.md` ✅ (needs update)
+**Input:** Phase 3 viral mechanics research + Phase 2 narrative frameworks
+
+### 23. X/Twitter Strategist
+**Responsibility:** X strategy with threads and viral tweets
+**Output:** work/production/x-strategy.md, x-text-prompts/
+**Agent:** `.claude/agents/x-strategist.md` ✅ (needs update)
+**Input:** Phase 3 viral mechanics research + Phase 2 narrative frameworks
+
+### 24. Content Production Coordinator
+**Responsibility:** Synthesize all platform strategies into unified production system
+**Output:** work/production/master-production-workflow.md, prompt-library/
+**Agent:** `.claude/agents/content-production-coordinator.md` ✅ (needs update)
+**Critical:** Creates Batch 1 (20-30 pieces) ready-to-execute prompts
+
+### 25. Phase 4 Lieutenant
+**Responsibility:** QA Phase 4 agent deliverables
+**Output:** work/phase-4-report.md
+**Agent:** To be spawned after Phase 4 completion
+
+---
+
+## Phase 5-8: Launch & Growth
+
+### 26. Performance Analyst
 **Responsibility:** Analyze content performance and provide optimization recommendations
 **Output:** work/analytics/performance-reports.md
 **Agent:** `.claude/agents/performance-analyst.md` ✅ (needs update)
@@ -181,7 +229,7 @@ All agent instruction files follow [Claude Code sub-agent format](https://code.c
 
 ## Ongoing Operations
 
-### 23. Intelligence Monitor
+### 27. Intelligence Monitor
 **Responsibility:** Weekly monitoring of case developments and campaign progress
 **Output:** work/intelligence/updates/
 **Agent:** `.claude/agents/intelligence-monitor.md` ✅ (needs update)
@@ -191,7 +239,7 @@ All agent instruction files follow [Claude Code sub-agent format](https://code.c
 
 ## Security & Privacy (Post-Phase Audits)
 
-### 26. Privacy Review Agent
+### 29. Privacy Review Agent
 **Responsibility:** Scan all phase outputs for PII leaks, create remediation plans
 **Output:** work/[phase-dir]/PRIVACY-REMEDIATION-PLAN.md, AGENT-REPORT-privacy-review-agent.md
 **Agent:** `.claude/agents/privacy-review-agent.md` ✅ CREATED

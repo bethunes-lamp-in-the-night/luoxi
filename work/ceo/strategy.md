@@ -59,81 +59,110 @@ Create external pressure through viral social media campaigns to force Chinese a
 
 ---
 
-## Phase 1.5: Critical Gap Closure (BEFORE Phase 2)
+## Phase 1.5: Critical Gap Closure ✅ COMPLETE
 **Objective:** Close translation, video, and archiving gaps from Phase 1
 
-**CRITICAL:** Phase 1.5 must complete BEFORE Phase 2 starts, because M2.0 needs to read all Phase 1 + 1.5 outputs.
+**Status:** Complete (140KB English translations, 21 videos analyzed via Gemini, archiving scripts ready)
 
-### Milestones:
-- **M1.5.1** Translation of priority Chinese content
-  - Deliverable: Translated key documents in work/intelligence/translations/
-  - Success: Top 10 viral facts, timeline, and key quotes translated
-  - **Agent:** Translation Coordinator (AI translation + human review)
-  - **Enables:** Western narrative and media outreach
+### Completed Milestones:
+- **M1.5.1** ✅ Translation of priority Chinese content
+  - Delivered: work/intelligence/translations/ (140KB English content)
+  - AI-driven translation (Claude Sonnet 4.5) with medical/legal review flags
+  - Priority facts, timeline, and powerful quotes translated
 
-- **M1.5.2** Video content analysis
-  - Deliverable: Video transcripts, clip annotations in work/intelligence/video-analysis/
-  - Success: All 21 videos watched, key moments timestamped, emotional beats identified
-  - **Agent:** Video Content Analyst
-  - **Enables:** Video content production with specific clips
+- **M1.5.2** ✅ Video content analysis
+  - Delivered: work/intelligence/video-analysis/ (Gemini 2.5 Flash scripts)
+  - 21 videos analyzed with visual asset catalog (19 images, 10/10 viral potential)
+  - Top viral clips identified and ranked
+  - Cost: $0.40 (vs original $87 estimate)
 
-- **M1.5.3** Archiving coordination
-  - Deliverable: Detailed archiving instructions in work/archiving/instructions.md
-  - Success: Human worker can execute downloads (family Douyin @小洛熙妈妈, 292K followers)
-  - **Agent:** Archiving Specialist
-  - **URGENT:** 24-48hr window before potential deletion
+- **M1.5.3** ✅ Archiving coordination
+  - Delivered: work/archiving/instructions.md (Docker-based Douyin archiving)
+  - Archiving scripts ready for human execution when needed
+  - Priority list for @小洛熙妈妈 account (290K followers)
 
-**Timeline: TODAY (4-6 hours) - Must complete before Phase 2 starts**
+**Key Outputs:**
+- Visual assets catalogued: Before/after transformation, grandmother feeding empty clothes, mother begging
+- Translation coverage: Top 15 viral facts, timeline, key quotes
+- Video analysis: Tier 1/2/3 evidence assets with viral potential ratings
 
 ---
 
-## Phase 2: Narrative Architecture (AFTER Phase 1.5 completes)
+## Phase 2: Narrative Architecture ✅ COMPLETE
 **Objective:** Develop core messaging frameworks for multi-audience strategy
 
-### Phase Consolidator Pattern:
-**Problem:** M2 agents reading 12 M1 files (~300KB) creates context bloat
-**Solution:** M2.0 creates single media-index-brief.md (~15-20KB) synthesizing all M1 + M1.5 outputs
+**Status:** Grade B+ (Comprehensive frameworks delivered, minor gaps documented)
 
-### Milestones:
-- **M2.0** Media Index Brief Creator (PHASE CONSOLIDATOR)
-  - Deliverable: work/narratives/media-index-brief.md
-  - Success: Single digestible file synthesizing all Phase 1 + 1.5 intelligence
-  - **Input:** All work/intelligence/ files (12 files ~300KB)
-  - **Output:** Consolidated brief (~15-20KB) with:
-    - Top 20-30 viral ammunition facts
-    - Key timeline moments
-    - Verified claims summary
-    - Narrative opportunities
-    - Translation status
-    - Video content catalog
-  - **Critical:** This is what M2.1/M2.2/M2.3 read instead of all M1 files
-  - **Agent:** Media Index Brief Creator
+### Completed Milestones:
+- **M2.0** ✅ Media Index Brief Creator (PHASE CONSOLIDATOR)
+  - Delivered: work/narratives/media-index-brief.md (51KB)
+  - Successfully synthesized 300KB Phase 1+1.5 into single digestible brief
+  - Top 20 viral facts with star ratings, timeline essentials, evidentiary assets
+  - **Pattern proven:** Consolidator approach works, reduces context bloat
 
-- **M2.1** Western audience narrative framework
-  - Deliverable: work/narratives/western-framework.md
-  - Success: 5-10 viral story angles optimized for engagement
-  - **Reads:** media-index-brief.md (NOT all M1 files)
-  - **Agent:** Western Narrative Strategist
+- **M2.1** ✅ Western Narrative Strategist
+  - Delivered: work/narratives/western-framework.md (78KB)
+  - 8 viral angles with platform optimization (TikTok, Instagram, YouTube, X)
+  - Reach projection: 10-50M+ views in 2-4 weeks
+  - Top 3 angles: "99.5% Surgery That Killed a Baby", "What They Don't Want You To See", "Grandmother Feeds Empty Clothes"
+  - Grade: A-
 
-- **M2.2** Chinese audience narrative framework
-  - Deliverable: work/narratives/chinese-framework.md
-  - Success: Solidarity messaging that transcends politics
-  - **Reads:** media-index-brief.md (NOT all M1 files)
-  - **Agent:** Chinese Narrative Strategist
+- **M2.2** ✅ Chinese Narrative Strategist
+  - Delivered: work/narratives/chinese-framework.md (comprehensive)
+  - 7 narrative angles for Chinese audiences (mainland + diaspora + HK + Taiwan)
+  - Censorship avoidance strategy with safe vocabulary guide
+  - Cross-strait solidarity themes transcending politics
+  - Grade: A
 
-- **M2.3** Authority-facing narrative framework
-  - Deliverable: work/narratives/authority-framework.md
-  - Success: Defensible framing using Xi's anti-corruption, Marxist analysis
-  - **Reads:** media-index-brief.md (NOT all M1 files)
-  - **Agent:** Authority Narrative Strategist
+- **M2.3** ✅ Authority Narrative Strategist
+  - Delivered: work/narratives/authority-framework.md (47KB)
+  - 5 off-ramp frameworks positioning authorities as solution-providers
+  - "Luoxi's Law" policy proposals (5 concrete reforms)
+  - Xi's anti-corruption rhetoric + Marxist dialectical analysis
+  - Makes it "easier to act than ignore"
+  - Grade: A+
 
-**Timeline: TODAY (4-6 hours total)**
-- M2.0 runs first (1-2 hours to consolidate)
-- Then M2.1/M2.2/M2.3 run (3-4 hours using the consolidated brief)
+**Key Strategic Outputs:**
+- All three narratives converge on: Justice for Luoxi + systemic reform
+- Evidence-based approaches with Tier 1/2/3 source verification
+- Platform-specific tactics ready for content production
+- Privacy compliant (zero PII leaks detected in Phase 2)
 
 ---
 
-## Phase 3: Content Production Infrastructure
+## Phase 3: Viral Mechanics & Growth Strategy 🔄 IN PROGRESS
+**Objective:** Research platform algorithms, viral tactics, and growth mechanisms to ensure maximum content performance
+
+**Status:** In progress (3 agents researching in parallel)
+
+**Why Phase 3 Added:** CEO identified critical gap - jumping from narrative frameworks to content creation without deep viral mechanics research risked suboptimal performance. Foundation research before execution ensures maximum viral potential.
+
+### Milestones:
+- **M3.1** 🔄 Viral Mechanics Researcher
+  - Deliverable: work/viral-mechanics/platform-algorithms.md
+  - Research: TikTok FYP triggers, Instagram Reels optimization, YouTube algorithm mechanics, X/Twitter thread patterns
+  - Output: Hook formulas, retention curves, pattern interrupts, A/B testing frameworks, optimal posting schedules
+  - **Status:** In progress (48K tokens generated)
+
+- **M3.2** 🔄 Growth Hacking Strategist
+  - Deliverable: work/viral-mechanics/growth-tactics.md
+  - Research: Influencer collaboration playbook (micro vs macro), community building strategies, cross-platform amplification
+  - Output: Viral loop engineering, paid vs organic recommendations, growth metrics
+  - **Status:** In progress (64K tokens generated)
+
+- **M3.3** 🔄 Wikipedia Strategist
+  - Deliverable: work/wikipedia/strategy.md + article-draft.md
+  - Research: Notability assessment, citation building, NPOV compliance
+  - Output: Wikipedia-ready article draft for human submission
+  - **Status:** In progress (72K tokens generated - most comprehensive)
+
+**Timeline:** Completing today (agents nearing completion)
+
+**Impact:** Phase 3 research will inform Phase 4 platform strategists, ensuring content creation is optimized from the start based on proven viral mechanics.
+
+---
+
+## Phase 4: Content Production Infrastructure (UPCOMING)
 **Objective:** Build scalable AI-powered content generation systems
 
 **CRITICAL: Human labor is extremely limited. All content production must be maximally scriptable.**
@@ -146,50 +175,44 @@ Create external pressure through viral social media campaigns to force Chinese a
 - **Human role:** Copy-paste prompts into AI generators, upload final outputs
 
 ### Phase Consolidator Pattern:
-**M3.0 creates production-brief.md** synthesizing all Phase 2 narrative frameworks for M3.1-M3.5
+**M4.0 creates production-brief.md** synthesizing Phase 2 narratives + Phase 3 viral mechanics for M4.1-M4.6
 
 ### Milestones:
-- **M3.0** Production Brief Creator (PHASE CONSOLIDATOR)
+- **M4.0** Production Brief Creator (PHASE CONSOLIDATOR)
   - Deliverable: work/production/production-brief.md
-  - Success: Single file synthesizing all narrative frameworks for content production
-  - **Input:** media-index-brief.md + all Phase 2 narrative frameworks
-  - **Output:** Production-ready brief with messaging guidelines, tone, audience priorities
-  - **Critical:** M3.1-M3.5 read this instead of all Phase 2 files
-  - **Agent:** Production Brief Creator
+  - Success: Single file synthesizing narrative frameworks + viral mechanics research
+  - **Input:** media-index-brief.md + Phase 2 frameworks + Phase 3 viral mechanics
+  - **Output:** Production-ready brief with messaging guidelines, platform algorithms, growth tactics
+  - **Critical:** M4.1-M4.6 read this instead of all previous phase files
 
-- **M3.1** Research prompt-driven AI content tools
+- **M4.1** Research prompt-driven AI content tools
   - Deliverable: work/production/ai-tools-vetted.md
   - Success: Each tool is prompt-driven with minimal human manual work
   - Examples: Runway, Pika, ElevenLabs, Midjourney, etc.
-  - **Agent:** AI Tools Researcher
 
-- **M3.2** TikTok content strategy and prompts
+- **M4.2** TikTok content strategy and prompts
   - Deliverable: work/production/tiktok-strategy.md, tiktok-ai-prompts/
-  - Success: Platform-optimized templates and prompt libraries
-  - **Agent:** TikTok Strategist
+  - Success: Platform-optimized using Phase 3 viral mechanics research
+  - Input: Phase 3 TikTok algorithm research + Phase 2 narratives
 
-- **M3.3** YouTube Shorts content strategy and prompts
+- **M4.3** YouTube Shorts content strategy and prompts
   - Deliverable: work/production/youtube-strategy.md, youtube-ai-prompts/
-  - Success: Platform-optimized templates and prompt libraries
-  - **Agent:** YouTube Shorts Strategist
+  - Success: Platform-optimized using Phase 3 viral mechanics research
 
-- **M3.4** Instagram content strategy and prompts
+- **M4.4** Instagram content strategy and prompts
   - Deliverable: work/production/instagram-strategy.md, instagram-ai-prompts/
-  - Success: Platform-optimized templates for Reels, posts, Stories
-  - **Agent:** Instagram Strategist
+  - Success: Reels/posts/Stories optimized using Phase 3 research
 
-- **M3.5** X/Twitter content strategy and prompts
+- **M4.5** X/Twitter content strategy and prompts
   - Deliverable: work/production/x-strategy.md, x-text-prompts/
-  - Success: Thread templates and viral tweet frameworks
-  - **Agent:** X/Twitter Strategist
+  - Success: Thread templates based on Phase 3 virality patterns
 
-- **M3.6** Master content production workflow
+- **M4.6** Master content production workflow
   - Deliverable: work/production/master-production-workflow.md, prompt-library/
-  - Success: Unified system coordinating all platforms, Batch 1 (20-30 pieces) ready-to-execute
-  - **Note:** "Production-ready" = complete scripts + AI tool prompts ready to execute
-  - **Agent:** Content Production Coordinator
+  - Success: Unified system, Batch 1 (20-30 pieces) ready with viral mechanics applied
+  - **Note:** "Production-ready" = complete scripts + AI tool prompts + viral optimization
 
-**Timeline: Days 2-3**
+**Timeline: Days 4-5 (after Phase 3 completes)**
 
 ---
 
@@ -215,7 +238,7 @@ Create external pressure through viral social media campaigns to force Chinese a
 
 ---
 
-## Phase 4: Platform Launch & Seeding
+## Phase 5: Platform Launch & Seeding
 **Objective:** Establish presence and begin algorithmic optimization
 
 ### Milestones:
@@ -237,7 +260,7 @@ Create external pressure through viral social media campaigns to force Chinese a
 
 ---
 
-## Phase 5: Engagement & Viral Growth
+## Phase 6: Engagement & Viral Growth
 **Objective:** Build engaged audience through iteration and amplification
 
 ### Milestones:
